@@ -111,10 +111,10 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: 
- 
- ```sh
- bundle install
+In order to run this project you need:
+
+```sh
+bundle install
 ```
 
 ### Setup
@@ -122,9 +122,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  git clone https://github.com/Ukaypromise/hello-rails-front-end.git
+  git clone https://github.com/MrOmachi/hello-react-front-end.git
 ```
-
 
 ### Install
 
@@ -138,14 +137,14 @@ Install this project with:
 
 To run the project, execute the following command:
 
-
 ```sh
   rails server
 ```
 
 ### Link to Rails Backtend
 
-[React Frontend](https://github.com/Ukaypromise/hello-rails-back-end/pull/1)
+[React Frontend](https://github.com/MrOmachi/hello-react-front-end.git)
+
 <!-- ### Run tests
 
 To run tests, run the following command:
@@ -176,12 +175,11 @@ Example:
 
 ## 👥 Author <a name="authors"></a>
 
-👤 **Uka Promise**
+👤 **John Omachi**
 
-- GitHub: [@Ukaypromise](https://github.com/Ukaypromise)
-- Twitter: [@PromiseUkay](https://twitter.com/PromiseUkay)
-- LinkedIn: [@promiseuka](https://www.linkedin.com/in/promiseuka/)
-
+- GitHub: [@MrOmachi](https://github.com/mromachi)
+- Twitter: [@mr_omachi](https://twitter.com/mr_omachi)
+- LinkedIn: [@John-Omachi](https://www.linkedin.com/in/johnomachi/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
