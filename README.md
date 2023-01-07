@@ -1,5 +1,24 @@
 <a name="readme-top"></a>
 
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
+Modify this file to match your project and remove sections that don't apply.
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+After you're finished please remove all the comments and instructions!
+-->
+
 <div align="center">
 
   <img src="https://user-images.githubusercontent.com/84629565/202665566-ba1a8ed3-041f-45bc-b21b-efdcc357189b.png" alt="logo" width="140"  height="auto" />
@@ -15,7 +34,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [:card_index: Entity Relationship Diagram](#er-diagram)
+  - [<img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/ruby-on-rails-icon.png" width="23" height="20"/> Rails Backend](#rails-backend)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -32,50 +51,57 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Rails Backend <a name="about-project"></a>
+# 📖 [Hello Rails Frontend] <a name="about-project"></a>
 
-This project is to implement a connection between a Ruby on Rails back-end and React front-end.
+![hello-gif](https://i.gifer.com/7P5M.gif)
+
+**[Hello Rails Frontend]** is a project that serves as the Backend for to display a random message, that will be consumed by the React app
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stacks <a name="tech-stack"></a>
-
-<!-- > Describe the tech stack and include only the relevant sections that apply to your project. -->
+### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Backend</summary>
+  <summary>Client</summary>
   <ul>
-    <li><a href="https://rubyonrails.org/">RubyOnRails.rb</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Frontend</summary>
+  <summary>Server</summary>
   <ul>
-    <li><a href="https://react.org/">React</a></li>
+    <li>Rails</li>
+  </ul>
+</details>
+
+<details>
+<summary>State Management</summary>
+  <ul>
+    <li><a href="https://redux-toolkit.js.org/introduction/getting-started">Redux</a></li>
   </ul>
 </details>
 
 <!-- Features -->
-<!--
+
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+- **[Random Greeting message]**
+- **[2 Single repo serving as a Fullstack web app]**
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
+## <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/ruby-on-rails-icon.png" width="23" height="20"/> Rails Backend <a name="rails-backend"></a>
+
+- Here is the Backend part of the project [Hello React Backend](https://github.com/MrOmachi/hello-rails-back-end.git)
+
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link - Not available](https://yourdeployedapplicationlink.com)
+- [Live Demo Link] :smiley: not yet available
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,24 +109,16 @@ This project is to implement a connection between a Ruby on Rails back-end and R
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-<!-- > Describe how a new developer could make use of your project. -->
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
+`Git` and `Node JS` installed on your computer.
 
-```sh
-bundle install
 ```
-
-### Setup
-
-Clone this repository to your desired folder:
-
-```sh
-  git clone https://github.com/MrOmachi/hello-react-front-end.git
+ node -v
+ npm -v
 ```
 
 ### Install
@@ -108,7 +126,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  bundle install
+  npm i
 ```
 
 ### Usage
@@ -116,42 +134,20 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-  rails server
+   npm start # for serving the client on localhost:3000
 ```
 
-### Link to Rails Backtend
-
-[React Frontend](https://github.com/MrOmachi/hello-react-front-end.git)
-
-<!-- ### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
+Or you can run the project with:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+   npm run build # for building the client
 ```
---->
-
-<!-- ### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
 👤 **John Omachi**
 
@@ -163,13 +159,11 @@ Example:
 
 <!-- FUTURE FEATURES -->
 
-<!-- ## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Rotate refresh icon]**
+- [ ] **[Add more 'Hello world' messages]**
+- [ ] **[Construct the API with languages, and country greeting colors]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -187,9 +181,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -197,17 +189,16 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+I would like to thank:
 
-I would like to thank...
+- [Microverse](https://www.microverse.org/)
+- Code Reviewers
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-<!-- ## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
+## ❓ FAQ <a name="faq"></a>
 
 - **[Question_1]**
 
@@ -224,7 +215,5 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
