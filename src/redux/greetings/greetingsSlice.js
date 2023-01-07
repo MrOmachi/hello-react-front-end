@@ -1,28 +1,28 @@
-import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
-const ApiData = "http://localhost:3000/random_greeting";
+const ApiData = 'http://localhost:3000/random_greeting';
 
 export const getMessage = createAsyncThunk(
-  "greetings/getGreetings",
+  'greetings/getGreetings',
   async () => {
     const response = await fetch(ApiData);
     const data = await response.json();
     return data;
-  }
+  },
 );
 
 const initialState = {
   message: [],
-  status: "",
+  status: '',
 };
 
 export const greetingsSlice = createSlice({
-  name: "greetings",
+  name: 'greetings',
   initialState,
   reducers: {},
   extraReducers(builder) {
     builder.addCase(getMessage.fulfilled, (state, action) => {
-      state.status = "succeeded";
+      state.status = 'succeed';
       state.message = action.payload;
     });
   },

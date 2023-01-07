@@ -6,9 +6,10 @@ const Greeting = () => {
   const greetingShow = useSelector((state) => state.greetings.message);
   const status = useSelector((state) => state.greetings.status);
   const dispatch = useDispatch();
+
   let content;
-  if (status === "success") {
-    content = greetingShow[0].message;
+  if (status === "succeed") {
+    content = greetingShow.greeting;
   }
 
   return (
